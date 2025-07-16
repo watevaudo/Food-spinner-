@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Should I Eat?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What should I Eat?</h1>
+        <div class="spinner-container">
+            <div class="spinner" id="foodSpinner">
+                <div class="spinner-section" data-food="Pizza">Pizza</div>
+                <div class="spinner-section" data-food="Pasta">Pasta</div>
+                <div class="spinner-section" data-food="Salad">Salad</div>
+                <div class="spinner-section" data-food="Burger">Burger</div>
+                <div class="spinner-section" data-food="Sushi">Sushi</div>
+                <div class="spinner-section" data-food="Tacos">Tacos</div>
+                <div class="spinner-section" data-food="Curry">Curry</div>
+                <div class="spinner-section" data-food="Sandwich">Sandwich</div>
+            </div>
+            <div class="arrow"></div>
+        </div>
+        <button id="spinButton">SPIN</button>
+        <p id="result">What are you in the mood for?</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
